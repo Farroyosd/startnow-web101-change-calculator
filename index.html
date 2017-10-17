@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Change Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <!-- Write your markup here -->
+    
+        <h1>Change Calculator</h1>
+      <div class="container">
+        <div class="row row1">
+          <div class="col-md-5">
+            <div class="form-group">
+              <label for="usr">Amount Due at Sale</label>
+              <input type="number" class="form-control" id="amount-due">
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="form-group">
+            <label for="usr">Cash given by customer</label>
+            <input type="number" class="form-control" id="amount-received">
+          </div>
+        </div>
+           <div class="col-md-2">
+            <div class="form-group">
+            <br>
+            <button id="calculate-change"class="btn btn-success" >Calculate Change</button>
+          </div>
+        </div>
+          
+          
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <h3>Twenties</h3>
+            <p id="20-output">0</p>
+            <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBEUEijQh2R2jC5KqPRppv_SbScnsrt9mixgs7_rlgQanUA-gX8A" alt="$20 Bill" width="460" height="345">
+          </div>
+          <div class="col-md-3">
+            <h3>Tens</h3>
+            <p id="10-output">0</p>
+            <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/US10dollarbill-Series_2004A.jpg/1280px-US10dollarbill-Series_2004A.jpg" alt="$10 Bill" width="460" height="345"> 
+          </div>
+          <div class="col-md-3">
+            <h3>Fives</h3>
+            <p id="5-output">0</p>
+            <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/US_%245_Series_2006_obverse.jpg/1280px-US_%245_Series_2006_obverse.jpg" alt="$5 Bill" width="460" height="345">
+          </div>
+          <div class="col-md-3">
+            <h3>Dollars</h3>
+            <p id="dollars-output">0</p>
+            <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/d/df/US_%241_obverse.jpg" alt="$1 Bill" width="460" height="345">
+          </div>
+        </div>
+        
+        
+        
+        
+        <div class="row">
+          <div class="col-md-3">
+            <h3>Quarters</h3>
+            <p id="quarters-output">0</p>
+            <img class="img-responsive img-circle coin" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/United_States_quarter%2C_obverse%2C_2004.jpg/485px-United_States_quarter%2C_obverse%2C_2004.jpg" alt="$1 Bill" width="260" height="145"> 
+          </div>
+          <div class="col-md-3">
+            <h3>Dimes</h3>
+            <p id="dimes-output">0</p>
+            <img class="img-responsive img-circle coin" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/2017-D_Roosevelt_dime_obverse.jpeg/768px-2017-D_Roosevelt_dime_obverse.jpeg" alt="$1 Bill">
+          </div>
+          <div class="col-md-3">
+            <h3>Nickels</h3>
+            <p id="nickels-output">0</p>
+            <img class="img-responsive img-circle coin" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Jefferson-Nickel-Unc-Obv.jpg/780px-Jefferson-Nickel-Unc-Obv.jpg" alt="Nickel coin" width="460" height="345">
+          </div>
+          <div class="col-md-3">
+            <h3>Pennies</h3>
+            <p id="pennies-output">0</p>
+            <img class="img-responsive img-circle coin" src="https://upload.wikimedia.org/wikipedia/commons/8/84/2005-Penny-Uncirculated-Obverse.png" alt="penny coin" width="460" height="345">
+          </div>
+        </div>
+      </div>
+        
+      
+    
+    
+    
+    
+    <!-- <h1>Change Calculator</h1>
+    <input id="amount-due" type="number"/>
+    <input id="amount-received" type="number"/>
+    <button id="calculate-change"class="btn btn-success" >Calculate Change</button>
+    <h3>Dollars</h3>
+    <p id="dollars-output">0</p>
+    <h3>Quarters</h3>
+    <p id="quarters-output">0</p>
+    <h3>Dimes</h3>
+    <p id="dimes-output">0</p>
+    <h3>Nickels</h3>
+    <p id="nickels-output">0</p>
+    <h3>Pennies</h3>
+    <p id="pennies-output">0</p> -->
+
+
+    <!-- Don't forget to add your <script> tag here -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      
+      <script src="main.js" charset="utf-8"></script>
+      
+  </body>
+</html>

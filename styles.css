@@ -1,0 +1,30 @@
+body {
+    background-image: url("http://az616578.vo.msecnd.net/files/2016/01/25/635892768340795711-1712987430_cashier.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.coin {
+  height: 100px;
+  width: 100px
+}
+
+
+.row{
+  background-color: lightgrey;
+  border: 2px solid grey;
+  border-radius: 8px;
+  margin: 100px;
+}
+.row1{
+  background-color: lightgrey;
+  border: 2px solid grey;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+h1{
+  color:white;
+  margin-bottom:0px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
